@@ -1,4 +1,9 @@
-
+Git Repository Struture
+It consists of 4 parts:
+1. Working directory
+2. Staging Area (or index)
+3. Local Repository
+4. Central Repository
 
 // Transfers your project form working directory
 // to staging area.
@@ -11,3 +16,8 @@ git commit -m  "your message here"
 // tranfers project from local to 
 // Central Repository (requires internet)
 git push 
+
+// add commmand
+git add -A (for all files and folders)
+# To add all files only in the current directory
+git add .
