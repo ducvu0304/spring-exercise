@@ -23,8 +23,9 @@ git add -A (for all files and folders)
 git add .
 
 // status command
-The git status commadn is used to show the status of the git repository
+The git status commadn is used to show the status of the git repository. 
+This command displays the state of the local directory and stagin area. 
 
 // push command
 # push current branch command
-git push --set-upstream <prev branch name	> <current branch name>
+git push --set-upstream <prev branch name> <current branch name>
