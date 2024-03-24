@@ -5,6 +5,8 @@ public class User {
     private String firstName;
     private String lastName;
     private String userName;
+    private String address;
+
 
     public User() {
     }
@@ -46,5 +48,13 @@ public class User {
 
     public void setUserName(String userName) {
         this.userName = userName;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
