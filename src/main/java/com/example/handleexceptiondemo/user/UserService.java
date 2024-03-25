@@ -1,5 +1,7 @@
 package com.example.handleexceptiondemo.user;
 
+import java.util.Optional;
+
 public class UserService implements UserRepository{
     @Override
     public User createUser(User user) {
@@ -14,5 +16,10 @@ public class UserService implements UserRepository{
     @Override
     public void deleteUser(Integer userId) {
 
+    }
+
+    @Override
+    public Optional<User> findUserById(Integer userId) {
+        return Optional.empty();
     }
 }
